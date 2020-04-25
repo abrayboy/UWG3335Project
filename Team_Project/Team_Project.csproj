@@ -45,6 +45,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -73,6 +76,9 @@
     <Content Include="FAQ.html" />
     <Content Include="For_Sale.html" />
     <Content Include="Index.html" />
+    <Content Include="js\apparel.js" />
+    <Content Include="js\constants\index.js" />
+    <Content Include="js\models\apparel-item.js" />
     <Content Include="Restorations.html" />
     <Content Include="res\21827392_475095656222886_200573435124908032_n.jpg" />
     <Content Include="res\card.jpg" />
@@ -91,9 +97,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="api\Apparel.ashx.cs">
+      <DependentUpon>Apparel.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\model\ApparelItem.cs" />
+    <Compile Include="api\model\Cart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="api\Apparel.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -103,9 +115,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="api\" />
     <Folder Include="css\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

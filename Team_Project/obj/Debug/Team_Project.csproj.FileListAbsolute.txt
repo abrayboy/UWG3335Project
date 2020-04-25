@@ -115,3 +115,5 @@ C:\Users\allen\Desktop\CS\MIS\UWG3335Project\Team_Project\obj\Debug\Team_Project
 C:\Users\allen\Desktop\CS\MIS\UWG3335Project\Team_Project\obj\Debug\Team_Project.csproj.CopyComplete
 C:\Users\allen\Desktop\CS\MIS\UWG3335Project\Team_Project\obj\Debug\Team_Project.dll
 C:\Users\allen\Desktop\CS\MIS\UWG3335Project\Team_Project\obj\Debug\Team_Project.pdb
+C:\Users\allen\Desktop\CS\MIS\UWG3335Project\Team_Project\bin\Newtonsoft.Json.dll
+C:\Users\allen\Desktop\CS\MIS\UWG3335Project\Team_Project\bin\Newtonsoft.Json.xml
