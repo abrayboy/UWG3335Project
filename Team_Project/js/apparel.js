@@ -1,7 +1,9 @@
-﻿import { Apparel } from './models/index.js';
+﻿import Apparel from './models/apparel-item.js';
 import { TOKEN } from './constants/index.js';
-console.log("HEREERE");
+
 const buttons = [... document.getElementsByClassName("cart-button")];
+
+console.log(buttons);
 
 buttons.forEach(button => {
     button.addEventListener("click", e => {
@@ -22,7 +24,9 @@ buttons.forEach(button => {
             }
         })
             .then(res => res.json())
-            .then(res => document.getElementById("total").innerText = `$${res}` );
+            .then(res => {
+                document.getElementById("total").innerText = `$${res}`;
+            });
     });
 });
 

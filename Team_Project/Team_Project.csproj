@@ -70,18 +70,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.html" />
+    <Content Include="Home.html" />
     <Content Include="Apparel.html" />
     <Content Include="Contact.html" />
-    <Content Include="css\main.css" />
+    <Content Include="CSSStyleSheet.css" />
     <Content Include="FAQ.html" />
     <Content Include="For_Sale.html" />
     <Content Include="Index.html" />
     <Content Include="js\apparel.js" />
     <Content Include="js\constants\index.js" />
-    <Content Include="js\models\index.js" />
-    <Content Include="js\nav.js" />
-    <Content Include="js\service\index.js" />
+    <Content Include="js\models\apparel-item.js" />
     <Content Include="Restorations.html" />
     <Content Include="res\21827392_475095656222886_200573435124908032_n.jpg" />
     <Content Include="res\card.jpg" />
@@ -117,7 +115,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="css\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
