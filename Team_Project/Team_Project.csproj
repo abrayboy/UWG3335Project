@@ -70,9 +70,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.html" />
+    <Content Include="Home.html" />
     <Content Include="Apparel.html" />
     <Content Include="Contact.html" />
+    <Content Include="CSSStyleSheet.css" />
     <Content Include="FAQ.html" />
     <Content Include="For_Sale.html" />
     <Content Include="Index.html" />
