@@ -36,6 +36,9 @@
         <br />
         <asp:Label ID="Label7" runat="server" Text="Email:"></asp:Label>
         <asp:TextBox ID="emailNameTxtbx" runat="server" Width="289px"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label12" runat="server" Text="Phone #:"></asp:Label>
+        <asp:TextBox ID="phoneNameTxtbx" runat="server"></asp:TextBox>
         <br />
         <br />
         <asp:Label ID="Label8" runat="server" Text="Vehicle Model:"></asp:Label>

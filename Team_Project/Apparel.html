@@ -5,8 +5,27 @@
     <title></title>
 </head>
 <body>
-
-    <img src="res/IMG_6807__31755.1524064299.JPG" />
-    <img src="res/Screen_shot_2018-02-03_at_3.29.36_PM__69180.1518503120.png" />
+    <div id="apparel-container">
+        <div class="card">
+            <img src="res/IMG_6807__31755.1524064299.JPG" alt="Image1" class="apparel-item" />
+            <a>Image 1</a>
+            <a>$19.99</a>
+            <button type="button" class="cart-button">Add To Cart</button>
+        </div>
+        <div class="card">
+            <img src="res/Screen_shot_2018-02-03_at_3.29.36_PM__69180.1518503120.png" alt="Image2" class="apparel-item" />
+            <a>Image 2</a>
+            <a>$19.99</a>
+            <button type="button" class="cart-button">Add To Cart</button>
+        </div>
+    </div>
+    <div id="cart-container">
+        <div id="cart">
+            <a>Total:</a>
+            <a id="total">$0.00</a>
+            <button type="button" id="checkout">Checkout</button>
+        </div>
+    </div>
+   <script src="js/apparel.js" type="module"></script> 
 </body>
 </html>
